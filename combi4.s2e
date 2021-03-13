@@ -1,0 +1,6 @@
+{"extensionName": "CombinationOptimization", "extensionPort": 1234, "blockSpecs":
+ [
+     [" ", "set list %s", "set_list", null], 
+     ["r", "get list1", "get_list1"],
+     ["r", "get list2", "get_list2"],
+  ], "menus": {}}
