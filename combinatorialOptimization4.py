@@ -39,7 +39,7 @@ def comb1_main(A):
     # クライアントの設定
     client = FixstarsClient()
     client.parameters.timeout = 1000   # タイムアウト1秒
-    client.token = "5KWLGjhoyvarNm8s5C10m7NsLNLdabRN"  # ローカル環境で使用する場合は、Amplify AEのアクセストークンを入力してください
+    # client.token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # ローカル環境で使用する場合は、Amplify AEのアクセストークンを入力してください
     client.parameters.outputs.duplicate = True  # 同じエネルギー値の解を列挙
 
     solver = Solver(client)
